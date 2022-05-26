@@ -1,0 +1,211 @@
+.inTable {
+    background-color: transparent;
+    color: white;
+	max-width: 50px;
+	text-align: center;
+}
+td {
+   border: 1px solid white;
+   padding: 5px;
+   text-align: center;
+}
+.note {
+	font-weight: bolder;
+	color: green;
+}
+body {
+	background-image: url('mountain.jpg');
+  font: 16pt sans;
+  background-size: cover;
+}
+h1 {
+	text-align: center;
+}
+@media (max-width: 1200px) {
+  body {
+    background: white;
+    margin-left: 0px;
+	margin-right: 0px;
+	}
+}
+/* input[type="button"] {
+	background-color: #008CBA;
+    border: 2px solid #008CBA;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+input[type="button"]:hover, input[type="button"]:focus {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #008CBA;
+} */
+
+#problemType{
+    background-color: #420191;
+  border-radius: 4px;
+  border: none;
+  color: white;
+  padding: 5px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border: 0.5px solid #420191;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+#rows{
+    background-color: transparent;
+}
+#cols{
+    background-color: transparent;
+}
+#result{
+    color: white;
+}
+tr{
+    color: white;
+}
+#getResult{
+    background-color: #420191;
+  border-radius: 4px;
+  border: none;
+  color: white;
+  padding: 5px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border: 0.5px solid #420191;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+#getResult[type="button"]:hover, input[type="button"]:focus {
+    background-color: #fdfdfd;
+    border: 0.5px solid #420191;
+    color: #420191;
+}
+#display_matrix{
+    background-color: #420191;
+  border-radius: 4px;
+  border: none;
+  color: white;
+  padding: 5px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border: 0.5px solid #420191;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+#display_matrix[type="button"]:hover, input[type="button"]:focus {
+    background-color: #fdfdfd;
+    border: 0.5px solid #420191;
+    color: #420191;
+}
+#anotherQue {
+	background-color: #420191;
+    border: 2px solid #420191;
+}
+#anotherQue:hover, #anotherQue:focus, #printAns:hover, #printAns:focus {
+	background-color: white; 
+    color: black; 
+    border: 2px solid #420191;
+}
+.result {
+	color: #420191;
+}
+
+
+/* --------------------------------- */
+h1{
+    color: white;
+    text-align: center;
+    font-size: 80px;
+  }
+  .home-inner{
+    background-image: url('mountain.jpg');
+    opacity: .55;
+    position: fixed;
+  }
+
+  /* ---------------------------- */
+
+  .botones {
+    background-color: transparent;
+    border-radius: 4px;
+    border: none;
+    color: white;
+    padding: 5px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  .botones:hover {
+    background-color: #fdfdfd;
+    border: 0.5px solid #420191;
+    color: #420191;
+  }
+  .guardar {
+    background-color: transparent;
+    border-radius: 4px;
+    border: none;
+    color: white;
+    padding: 5px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  .guardar:hover {
+    background-color: #fdfdfd;
+    border: 0.5px solid #420191;
+    color: #420191;
+  }
+  .cargar {
+    background-color: transparent;
+    border-radius: 4px;
+    border: none;
+    color: white;
+    padding: 5px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  input[type="file"] {
+    display: none;
+  }
+  .cargar:hover {
+    background-color: #fdfdfd;
+    border: 0.5px solid #420191;
+    color: #420191;
+  }
+  #config {
+    float: left;
+    width: 400px;
+    height: 600px;
+  }
+  #input_output {
+    height: 10%;
+    width: 15%;
+  }
+  p {
+    font-size: 16px;
+    max-width: 700px;
+  }
